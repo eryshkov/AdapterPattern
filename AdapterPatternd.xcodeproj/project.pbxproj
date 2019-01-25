@@ -32,6 +32,8 @@
 		5CA6D5E221FAFCAA00E5229A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		5CA6D5E521FAFE3E00E5229A /* GoogleAuthAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthAdapter.swift; sourceTree = "<group>"; };
 		5CA6D5E721FB00AE00E5229A /* TwitterAuthAdaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAuthAdaper.swift; sourceTree = "<group>"; };
+		5CAD0E4221FB052800A3F86F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5CAD0E4421FB063200A3F86F /* adapter-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adapter-2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,8 @@
 		5CA6D5BF21FAF9D000E5229A = {
 			isa = PBXGroup;
 			children = (
+				5CAD0E4321FB053400A3F86F /* screens */,
+				5CAD0E4221FB052800A3F86F /* README.md */,
 				5CA6D5CA21FAF9D100E5229A /* AdapterPatternd */,
 				5CA6D5C921FAF9D100E5229A /* Products */,
 			);
@@ -93,6 +97,14 @@
 				5CA6D5E721FB00AE00E5229A /* TwitterAuthAdaper.swift */,
 			);
 			path = Adapter;
+			sourceTree = "<group>";
+		};
+		5CAD0E4321FB053400A3F86F /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				5CAD0E4421FB063200A3F86F /* adapter-2x.png */,
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
