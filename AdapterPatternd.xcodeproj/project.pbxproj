@@ -14,6 +14,7 @@
 		5CA6D5D621FAF9D100E5229A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA6D5D421FAF9D100E5229A /* LaunchScreen.storyboard */; };
 		5CA6D5DE21FAFA3800E5229A /* GoogleAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6D5DD21FAFA3800E5229A /* GoogleAuth.swift */; };
 		5CA6D5E021FAFBF700E5229A /* TwitterAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6D5DF21FAFBF700E5229A /* TwitterAuth.swift */; };
+		5CA6D5E321FAFCAA00E5229A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6D5E221FAFCAA00E5229A /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5CA6D5D721FAF9D100E5229A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CA6D5DD21FAFA3800E5229A /* GoogleAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuth.swift; sourceTree = "<group>"; };
 		5CA6D5DF21FAFBF700E5229A /* TwitterAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAuth.swift; sourceTree = "<group>"; };
+		5CA6D5E221FAFCAA00E5229A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		5CA6D5E121FAFC1F00E5229A /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				5CA6D5E221FAFCAA00E5229A /* AuthService.swift */,
 				5CA6D5DD21FAFA3800E5229A /* GoogleAuth.swift */,
 				5CA6D5DF21FAFBF700E5229A /* TwitterAuth.swift */,
 			);
@@ -151,6 +154,7 @@
 			files = (
 				5CA6D5CE21FAF9D100E5229A /* ViewController.swift in Sources */,
 				5CA6D5E021FAFBF700E5229A /* TwitterAuth.swift in Sources */,
+				5CA6D5E321FAFCAA00E5229A /* AuthService.swift in Sources */,
 				5CA6D5CC21FAF9D100E5229A /* AppDelegate.swift in Sources */,
 				5CA6D5DE21FAFA3800E5229A /* GoogleAuth.swift in Sources */,
 			);

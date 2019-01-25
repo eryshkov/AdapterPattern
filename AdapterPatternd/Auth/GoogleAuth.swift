@@ -15,7 +15,9 @@ public struct GoogleUser {
 }
 
 public class GoogleAuth {
-    public func login(email: String, password: String, completion: @escaping (GoogleUser?, Error?) -> Void) {
+    public func login(email: String,
+                      password: String,
+                      completion: @escaping (GoogleUser?, Error?) -> Void) {
         let token = "google-token-dkforp5"
         
         let user = GoogleUser(email: email, password: password, token: token)
