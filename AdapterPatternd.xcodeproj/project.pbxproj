@@ -15,6 +15,8 @@
 		5CA6D5DE21FAFA3800E5229A /* GoogleAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6D5DD21FAFA3800E5229A /* GoogleAuth.swift */; };
 		5CA6D5E021FAFBF700E5229A /* TwitterAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6D5DF21FAFBF700E5229A /* TwitterAuth.swift */; };
 		5CA6D5E321FAFCAA00E5229A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6D5E221FAFCAA00E5229A /* AuthService.swift */; };
+		5CA6D5E621FAFE3E00E5229A /* GoogleAuthAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6D5E521FAFE3E00E5229A /* GoogleAuthAdapter.swift */; };
+		5CA6D5E821FB00AE00E5229A /* TwitterAuthAdaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6D5E721FB00AE00E5229A /* TwitterAuthAdaper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		5CA6D5DD21FAFA3800E5229A /* GoogleAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuth.swift; sourceTree = "<group>"; };
 		5CA6D5DF21FAFBF700E5229A /* TwitterAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAuth.swift; sourceTree = "<group>"; };
 		5CA6D5E221FAFCAA00E5229A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		5CA6D5E521FAFE3E00E5229A /* GoogleAuthAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthAdapter.swift; sourceTree = "<group>"; };
+		5CA6D5E721FB00AE00E5229A /* TwitterAuthAdaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAuthAdaper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		5CA6D5CA21FAF9D100E5229A /* AdapterPatternd */ = {
 			isa = PBXGroup;
 			children = (
+				5CA6D5E421FAFE1C00E5229A /* Adapter */,
 				5CA6D5E121FAFC1F00E5229A /* Auth */,
 				5CA6D5D221FAF9D100E5229A /* Assets.xcassets */,
 				5CA6D5CB21FAF9D100E5229A /* AppDelegate.swift */,
@@ -79,6 +84,15 @@
 				5CA6D5DF21FAFBF700E5229A /* TwitterAuth.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		5CA6D5E421FAFE1C00E5229A /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				5CA6D5E521FAFE3E00E5229A /* GoogleAuthAdapter.swift */,
+				5CA6D5E721FB00AE00E5229A /* TwitterAuthAdaper.swift */,
+			);
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,9 +168,11 @@
 			files = (
 				5CA6D5CE21FAF9D100E5229A /* ViewController.swift in Sources */,
 				5CA6D5E021FAFBF700E5229A /* TwitterAuth.swift in Sources */,
+				5CA6D5E621FAFE3E00E5229A /* GoogleAuthAdapter.swift in Sources */,
 				5CA6D5E321FAFCAA00E5229A /* AuthService.swift in Sources */,
 				5CA6D5CC21FAF9D100E5229A /* AppDelegate.swift in Sources */,
 				5CA6D5DE21FAFA3800E5229A /* GoogleAuth.swift in Sources */,
+				5CA6D5E821FB00AE00E5229A /* TwitterAuthAdaper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
