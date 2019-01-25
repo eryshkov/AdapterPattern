@@ -12,6 +12,8 @@
 		5CA6D5D121FAF9D100E5229A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA6D5CF21FAF9D100E5229A /* Main.storyboard */; };
 		5CA6D5D321FAF9D100E5229A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA6D5D221FAF9D100E5229A /* Assets.xcassets */; };
 		5CA6D5D621FAF9D100E5229A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA6D5D421FAF9D100E5229A /* LaunchScreen.storyboard */; };
+		5CA6D5DE21FAFA3800E5229A /* GoogleAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6D5DD21FAFA3800E5229A /* GoogleAuth.swift */; };
+		5CA6D5E021FAFBF700E5229A /* TwitterAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA6D5DF21FAFBF700E5229A /* TwitterAuth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5CA6D5D221FAF9D100E5229A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CA6D5D521FAF9D100E5229A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CA6D5D721FAF9D100E5229A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA6D5DD21FAFA3800E5229A /* GoogleAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuth.swift; sourceTree = "<group>"; };
+		5CA6D5DF21FAFBF700E5229A /* TwitterAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAuth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		5CA6D5CA21FAF9D100E5229A /* AdapterPatternd */ = {
 			isa = PBXGroup;
 			children = (
+				5CA6D5E121FAFC1F00E5229A /* Auth */,
+				5CA6D5D221FAF9D100E5229A /* Assets.xcassets */,
 				5CA6D5CB21FAF9D100E5229A /* AppDelegate.swift */,
 				5CA6D5CD21FAF9D100E5229A /* ViewController.swift */,
 				5CA6D5CF21FAF9D100E5229A /* Main.storyboard */,
-				5CA6D5D221FAF9D100E5229A /* Assets.xcassets */,
 				5CA6D5D421FAF9D100E5229A /* LaunchScreen.storyboard */,
 				5CA6D5D721FAF9D100E5229A /* Info.plist */,
 			);
 			path = AdapterPatternd;
+			sourceTree = "<group>";
+		};
+		5CA6D5E121FAFC1F00E5229A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				5CA6D5DD21FAFA3800E5229A /* GoogleAuth.swift */,
+				5CA6D5DF21FAFBF700E5229A /* TwitterAuth.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CA6D5CE21FAF9D100E5229A /* ViewController.swift in Sources */,
+				5CA6D5E021FAFBF700E5229A /* TwitterAuth.swift in Sources */,
 				5CA6D5CC21FAF9D100E5229A /* AppDelegate.swift in Sources */,
+				5CA6D5DE21FAFA3800E5229A /* GoogleAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
