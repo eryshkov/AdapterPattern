@@ -24,7 +24,7 @@
 * Усложняет код программы из-за введения дополнительных классов.
 
 ## Main functionality
-* An app implements `Builder` pattern
+* An app implements `Adapter` pattern
 * uses materials from [refactoring.guru](https://refactoring.guru/ru/design-patterns/adapter)
 
 
