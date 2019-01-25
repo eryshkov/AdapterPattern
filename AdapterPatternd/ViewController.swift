@@ -9,12 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var authService: AuthService = TwitterAuthAdapter()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        createUser(email: "user@example.com", password: "fjpr95")
     }
 
+    func createUser(email: String, password: String) {
+        authService.login(email: email, password: password, success: { (user, token) in
+            print("Auth succeeded: \(user.email), \(token.value)")
+        }) { (error) in
+            if let error = error {
+                print(error.localizedDescription)
+            }
+        }
+    }
 
 }
 

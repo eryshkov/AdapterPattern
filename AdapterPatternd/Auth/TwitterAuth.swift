@@ -18,7 +18,7 @@ public class TwitterAuth {
     public func login(email: String,
                       password: String,
                       completion: @escaping (TwitterUser?, Error?) -> Void) {
-        let token = "google-token-dkforp5"
+        let token = "twitter-token-dkforp5"
         
         let user = TwitterUser(email: email, password: password, token: token)
         
